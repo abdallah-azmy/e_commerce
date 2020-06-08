@@ -116,7 +116,10 @@ class _MainScreenState extends State<MainScreen> {
                     height: 10,
                   ),
                   Container(
-                    height: MediaQuery.of(context).size.height / 1.5,
+                    height: MediaQuery
+                        .of(context)
+                        .size
+                        .height / 1.1,
                     child: GridView.count(
                       primary: false,
                       shrinkWrap: true,
@@ -134,6 +137,18 @@ class _MainScreenState extends State<MainScreen> {
                         Product(
                           imageLink: "assets/images/unsplash.png",
                         ),
+                        Product(
+                          imageLink: "assets/images/unsplash.png",
+                        ),
+                        Product(),
+                        Product(),
+                        Product(
+                          imageLink: "assets/images/unsplash.png",
+                        ),
+                        Product(
+                          imageLink: "assets/images/unsplash.png",
+                        ),
+                        Product(),
                         Product(
                           imageLink: "assets/images/unsplash.png",
                         ),
